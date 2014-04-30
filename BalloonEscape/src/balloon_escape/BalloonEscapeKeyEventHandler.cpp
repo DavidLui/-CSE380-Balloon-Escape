@@ -154,12 +154,16 @@ void BalloonEscapeKeyEventHandler::handleKeyEvents(Game *game)
 		float e = (float)viewport->getViewportY();
 		if (player->getPhysicalProperties()->getY() > (float)viewport->getViewportY()) {
 			viewportVy -= 1;
+			if (player->getPhysicalProperties()->getY() - (float) viewport->getViewportY() <200) 
+				viewportVy -= 2;
 			viewportMoved = true;
+
 		}
 		else {
-			viewportVy = 0;
+			viewportVy += 1;
+			viewportMoved = true;
 		}
-		if (input->isKeyDown(UP_KEY))
+	/*	if (input->isKeyDown(UP_KEY))
 		{
 			viewportVy -= MAX_VIEWPORT_AXIS_VELOCITY;
 			viewportMoved = true;
@@ -168,7 +172,7 @@ void BalloonEscapeKeyEventHandler::handleKeyEvents(Game *game)
 		{
 			viewportVy += MAX_VIEWPORT_AXIS_VELOCITY;
 			viewportMoved = true;
-		}
+		}*/
 
 		Viewport *viewport = game->getGUI()->getViewport();
 		if (viewportMoved)
