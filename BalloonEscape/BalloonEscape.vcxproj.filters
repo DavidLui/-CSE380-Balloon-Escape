@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\balloon_escape">
+      <UniqueIdentifier>{4a96d095-9f5a-4b91-849e-d6292bd3ff79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\balloon_escape_VS">
+      <UniqueIdentifier>{5e3ad784-7027-4d96-88d8-503b8339c003}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\balloon_escape\BalloonEscape.cpp">
+      <Filter>src\balloon_escape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balloon_escape_VS\stdafx.cpp">
+      <Filter>src\balloon_escape_VS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balloon_escape\BalloonEscapeButtonEventHandler.cpp">
+      <Filter>src\balloon_escape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balloon_escape\BalloonEscapeCollisionListener.cpp">
+      <Filter>src\balloon_escape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balloon_escape\BalloonEscapeDataLoader.cpp">
+      <Filter>src\balloon_escape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balloon_escape\BalloonEscapeKeyEventHandler.cpp">
+      <Filter>src\balloon_escape</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balloon_escape\BalloonEscapeTextGenerator.cpp">
+      <Filter>src\balloon_escape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\balloon_escape\BalloonEscape.h">
+      <Filter>src\balloon_escape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape_VS\stdafx.h">
+      <Filter>src\balloon_escape_VS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape_VS\targetver.h">
+      <Filter>src\balloon_escape_VS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape\BalloonEscapeButtonEventHandler.h">
+      <Filter>src\balloon_escape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape\BalloonEscapeCollisionListener.h">
+      <Filter>src\balloon_escape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape\BalloonEscapeDataLoader.h">
+      <Filter>src\balloon_escape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape\BalloonEscapeKeyEventHandler.h">
+      <Filter>src\balloon_escape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balloon_escape\BalloonEscapeTextGenerator.h">
+      <Filter>src\balloon_escape</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resource.h">
+      <Filter>src\balloon_escape_VS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\balloon_escape_VS\ReadMe.txt">
+      <Filter>src\balloon_escape_VS</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
