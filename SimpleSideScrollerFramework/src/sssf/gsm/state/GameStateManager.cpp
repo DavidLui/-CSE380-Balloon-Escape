@@ -82,6 +82,10 @@ void GameStateManager::Victory()
 {
 	currentGameState = GS_VICTORY;
 }
+void GameStateManager::gameOver()
+{
+	currentGameState = GS_GAME_OVER;
+}
 void GameStateManager::Help()
 {
 	currentGameState = GS_HELP;

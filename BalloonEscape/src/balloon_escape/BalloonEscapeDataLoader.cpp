@@ -234,6 +234,7 @@ void BalloonEscapeDataLoader::hardCodedLoadGUIExample(Game *game)
 	victoryScreen(game, gui, guiTextureManager);
 	helpScreen(game, gui, guiTextureManager);
 	aboutScreen(game, gui, guiTextureManager);
+	initGameOverScreen(game,gui,guiTextureManager);
 }
 
 /*
@@ -340,17 +341,27 @@ void BalloonEscapeDataLoader::aboutScreen(Game *game, GameGUI *gui, DirectXTextu
 void BalloonEscapeDataLoader::initGameOverScreen(Game *game, GameGUI *gui,	DirectXTextureManager *guiTextureManager)
 {
 
-	// NOW, FIRST LET'S ADD A VICTORY SCREEN GUI
 	ScreenGUI *gameOverGUI = new ScreenGUI();
 	unsigned int imageID = guiTextureManager->loadTexture(W_GAME_OVER_SCREEN_PATH);
-	unsigned int mouseOverTextureID = imageID;
 	
-	//TO DO: ADD BUTTON TO RETURN TO MAIN MENU
+	OverlayImage *imageToAdd = new OverlayImage();
+	imageToAdd->x = 0;
+	imageToAdd->y = 0;
+	imageToAdd->z = 0;
+	imageToAdd->alpha = 199;
+	imageToAdd->width = 512;
+	imageToAdd->height = 512;
+	imageToAdd->imageID = imageID;
+	gameOverGUI->addOverlayImage(imageToAdd);
+
+
+	unsigned int normalTextureID = guiTextureManager->loadTexture(W_QUIT_IMAGE_PATH);
+	unsigned int mouseOverTextureID = guiTextureManager->loadTexture(W_QUIT_IMAGE_MO_PATH);
 	Button *buttonToAdd = new Button();
-	buttonToAdd->initButton(imageID, 
+	buttonToAdd->initButton(normalTextureID, 
 							mouseOverTextureID,
-							256,
-							100,
+							800,
+							600,
 							0,
 							255,
 							game->getGraphics()->getScreenWidth(),
@@ -359,8 +370,10 @@ void BalloonEscapeDataLoader::initGameOverScreen(Game *game, GameGUI *gui,	Direc
 							W_GO_TO_MM_COMMAND);
 	gameOverGUI->addButton(buttonToAdd);
 
-	// AND REGISTER IT WITH THE GUI
 	gui->addScreenGUI(GS_GAME_OVER, gameOverGUI);
+
+
+
 }
 
 void BalloonEscapeDataLoader::victoryScreen(Game *game, GameGUI *gui, DirectXTextureManager *guiTextureManager) {

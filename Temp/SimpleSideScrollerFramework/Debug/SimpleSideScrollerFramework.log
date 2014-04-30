@@ -1,47 +1,47 @@
-﻿Build started 4/30/2014 3:57:16 PM.
-     1>Project "C:\Users\David\Documents\GitHub\BalloonEscape\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/30/2014 4:59:24 PM.
+     1>Project "C:\Users\David\Documents\GitHub\balloon\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\\" /Fd"C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\sssf\gsm\physics\Physics.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\\" /Fd"C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\sssf\gsm\physics\Physics.cpp
          Physics.cpp
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\David\Documents\GitHub\BalloonEscape\Common\SimpleSideScrollerFramework.lib" /NOLOGO C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\GameDataLoader.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\Game.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\WStringTable.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\GameGraphics.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\RenderList.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\TextureManager.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\BotRecycler.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\RandomFloatingBot.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\RandomJumpingBot.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\AABB.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\CollidableObject.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\Physics.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\AnimatedSprite.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\AnimatedSpriteType.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\SpriteManager.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\GameStateManager.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\SparseLayer.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\TiledLayer.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\World.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\Button.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\Cursor.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\GameGUI.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\LifeStatus.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\ScreenGUI.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\Viewport.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\GameInput.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\DirectXGraphics.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\DirectXTextureManager.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\WindowsInput.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\WindowsOS.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\WindowsTimer.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\BufferedTextFileReader.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\GameText.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\TextFileWriter.obj
-         C:\Users\David\Documents\GitHub\BalloonEscape\Temp\SimpleSideScrollerFramework\Debug\stdafx.obj
-         SimpleSideScrollerFramework.vcxproj -> C:\Users\David\Documents\GitHub\BalloonEscape\Common\SimpleSideScrollerFramework.lib
-     1>Done Building Project "C:\Users\David\Documents\GitHub\BalloonEscape\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\David\Documents\GitHub\balloon\Common\SimpleSideScrollerFramework.lib" /NOLOGO C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\GameDataLoader.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\Game.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\WStringTable.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\GameGraphics.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\RenderList.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\TextureManager.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\BotRecycler.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\RandomFloatingBot.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\RandomJumpingBot.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\AABB.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\CollidableObject.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\Physics.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\AnimatedSprite.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\AnimatedSpriteType.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\SpriteManager.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\GameStateManager.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\SparseLayer.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\TiledLayer.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\World.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\Button.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\Cursor.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\GameGUI.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\LifeStatus.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\ScreenGUI.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\Viewport.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\GameInput.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\DirectXGraphics.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\DirectXTextureManager.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\WindowsInput.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\WindowsOS.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\WindowsTimer.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\BufferedTextFileReader.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\GameText.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\TextFileWriter.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\stdafx.obj
+         SimpleSideScrollerFramework.vcxproj -> C:\Users\David\Documents\GitHub\balloon\Common\SimpleSideScrollerFramework.lib
+     1>Done Building Project "C:\Users\David\Documents\GitHub\balloon\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.75
+Time Elapsed 00:00:03.51

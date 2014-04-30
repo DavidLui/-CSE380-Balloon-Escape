@@ -1,9 +1,16 @@
-﻿Build started 4/30/2014 3:51:47 PM.
-     1>Project "C:\Users\David\Documents\GitHub\BalloonEscape\XMLFileImporter\XMLFileImporter.vcxproj" on node 2 (Build target(s)).
-     1>Lib:
-         XMLFileImporter.vcxproj -> C:\Users\David\Documents\GitHub\BalloonEscape\Common\XMLFileImporter.lib
-     1>Done Building Project "C:\Users\David\Documents\GitHub\BalloonEscape\XMLFileImporter\XMLFileImporter.vcxproj" (Build target(s)).
+﻿Build started 4/30/2014 4:45:54 PM.
+     1>Project "C:\Users\David\Documents\GitHub\balloon\XMLFileImporter\XMLFileImporter.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\balloon\Temp\XMLFileImporter\Debug\\" /Fd"C:\Users\David\Documents\GitHub\balloon\Temp\XMLFileImporter\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\xmlfi\XMLFileImporter.cpp src\xmlfi_VS\stdafx.cpp
+         stdafx.cpp
+         XMLFileImporter.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\David\Documents\GitHub\balloon\Common\XMLFileImporter.lib" /NOLOGO C:\Users\David\Documents\GitHub\balloon\Temp\XMLFileImporter\Debug\XMLFileImporter.obj
+         C:\Users\David\Documents\GitHub\balloon\Temp\XMLFileImporter\Debug\stdafx.obj
+         XMLFileImporter.vcxproj -> C:\Users\David\Documents\GitHub\balloon\Common\XMLFileImporter.lib
+     1>Done Building Project "C:\Users\David\Documents\GitHub\balloon\XMLFileImporter\XMLFileImporter.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.26
+Time Elapsed 00:00:06.23

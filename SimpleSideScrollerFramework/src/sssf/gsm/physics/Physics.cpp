@@ -278,12 +278,11 @@ void Physics::update(Game *game)
 					{
 					if(game->getLives() > 1) {
 						game->decreaseLives();
-						body->
 					}						
 					else if(game->getLives() == 1 && game->getPlayerLife() == 0)
 					{
 						GameStateManager *gsm = game->getGSM();
-						gsm->setCurrentGameState(GS_GAME_OVER);
+						gsm->gameOver();
 					}
 	
 					game->setPlayerLife();
