@@ -219,16 +219,7 @@ void Physics::update(Game *game)
 		player->setBody(body);
 		// This is our little game loop.
 
-			// Instruct the world to perform a single step of simulation.
-			// It is generally best to keep the time step and iterations fixed.
-				bodyDef.type = b2_staticBody;
-				bodyDef.position.Set(600, 9100);
-				//body2 = world->CreateBody(&bodyDef);
-
-
-
-
-			//	body2->CreateFixture(&dynamicBox, 0.0f);
+		
 
 
 		once += 1;
@@ -249,7 +240,6 @@ void Physics::update(Game *game)
 			float32 angle = body->GetAngle();
 
 			printf("%4.2f %4.2f %4.2f\n", position.x, position.y, angle);
-			//	printf("%4.2f %4.2f %4.2f\n", position2.x, position2.y, angle);
 		
 			if (f == 0) {
 				World *woorld = gsm->getWorld();
@@ -269,7 +259,7 @@ void Physics::update(Game *game)
 			if (z==0)
 			for (b2ContactEdge* edge = body->GetContactList(); edge; edge = edge->next)
 				if (edge->contact->IsTouching()) {
-					z=50;
+					z=10;
 
 					if(game->getPlayerLife() > 0)
 						game->decreasePlayerLife();
@@ -282,6 +272,12 @@ void Physics::update(Game *game)
 					else if(game->getLives() == 1 && game->getPlayerLife() == 0)
 					{
 						GameStateManager *gsm = game->getGSM();
+						once = 0;
+						//body->SetTransform(b2Vec2((600-position.x),(9280-position.y)),body->GetAngle());
+						Viewport *viewport = game->getGUI()->getViewport();
+						viewport->setViewportX(0);
+						viewport->setViewportY(8880);
+
 						gsm->gameOver();
 					}
 	

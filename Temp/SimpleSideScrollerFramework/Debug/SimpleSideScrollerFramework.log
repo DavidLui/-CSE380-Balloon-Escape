@@ -1,4 +1,4 @@
-﻿Build started 4/30/2014 4:59:24 PM.
+﻿Build started 4/30/2014 5:38:29 PM.
      1>Project "C:\Users\David\Documents\GitHub\balloon\SimpleSideScrollerFramework\SimpleSideScrollerFramework.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\\" /Fd"C:\Users\David\Documents\GitHub\balloon\Temp\SimpleSideScrollerFramework\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\sssf\gsm\physics\Physics.cpp
@@ -44,4 +44,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.51
+Time Elapsed 00:00:03.10
