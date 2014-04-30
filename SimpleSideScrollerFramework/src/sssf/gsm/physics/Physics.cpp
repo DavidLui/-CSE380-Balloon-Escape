@@ -37,7 +37,7 @@ int z = 0;
 int f = 0;
 int once  = 0;
 		b2Body* body = NULL;
-		
+		int invincibletimer = 0;
 		b2Body* body2 = NULL;
 		b2BodyDef groundBodyDef;
 Physics::Physics()
@@ -255,11 +255,24 @@ void Physics::update(Game *game)
 				}
 				f++;
 			}
+			
+			if (player->getinvincible() == true) {
+				if (invincibletimer == 0) {
+					invincibletimer = 100;
+				}
+				invincibletimer -= 1;
+				if (invincibletimer == 0) {
+					player->setinvincible(false);
+				}
+			}
+			
+				 
 			if (z!=0)z--;
 			if (z==0)
+			if (player->getinvincible() == false)
 			for (b2ContactEdge* edge = body->GetContactList(); edge; edge = edge->next)
 				if (edge->contact->IsTouching()) {
-					z=10;
+					z=50;
 
 					if(game->getPlayerLife() > 0)
 						game->decreasePlayerLife();

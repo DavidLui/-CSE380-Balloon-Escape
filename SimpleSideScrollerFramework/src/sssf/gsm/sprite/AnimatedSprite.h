@@ -26,6 +26,7 @@ protected:
 	// TRANSPARENCY/OPACITY
 	int alpha;
 	int removal;
+	bool invincible;
 	// THE "current" STATE DICTATES WHICH ANIMATION SEQUENCE 
 	// IS CURRENTLY IN USE, BUT IT MAP ALSO BE USED TO HELP
 	// WITH OTHER GAME ACTIVITIES, LIKE PHYSICS
@@ -46,7 +47,8 @@ public:
 	wstring				getCurrentState()	{ return currentState;		}
 	unsigned int		getFrameIndex()		{ return frameIndex;		}
 	AnimatedSpriteType*	getSpriteType()		{ return spriteType;		}
-
+	void setinvincible(bool truefalse ) {invincible = truefalse;}
+	bool getinvincible() {return invincible;}
 	// INLINED MUTATOR METHODS
 	void setAlpha(int initAlpha)
 	{	alpha = initAlpha;						}

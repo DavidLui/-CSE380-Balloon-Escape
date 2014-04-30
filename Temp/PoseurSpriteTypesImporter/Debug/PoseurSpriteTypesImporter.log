@@ -1,10 +1,8 @@
-﻿Build started 4/30/2014 4:45:55 PM.
+﻿Build started 4/30/2014 6:45:52 PM.
      1>Project "C:\Users\David\Documents\GitHub\balloon\PoseurSpriteTypesImporter\PoseurSpriteTypesImporter.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\balloon\Temp\PoseurSpriteTypesImporter\Debug\\" /Fd"C:\Users\David\Documents\GitHub\balloon\Temp\PoseurSpriteTypesImporter\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\psti\PoseurSpriteTypesImporter.cpp src\psti_VS\stdafx.cpp
-         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\balloon\Temp\PoseurSpriteTypesImporter\Debug\\" /Fd"C:\Users\David\Documents\GitHub\balloon\Temp\PoseurSpriteTypesImporter\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\psti\PoseurSpriteTypesImporter.cpp
          PoseurSpriteTypesImporter.cpp
-         Generating Code...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\David\Documents\GitHub\balloon\Common\PoseurSpriteTypesImporter.lib" /NOLOGO C:\Users\David\Documents\GitHub\balloon\Temp\PoseurSpriteTypesImporter\Debug\PoseurSpriteTypesImporter.obj
          C:\Users\David\Documents\GitHub\balloon\Temp\PoseurSpriteTypesImporter\Debug\stdafx.obj
@@ -13,4 +11,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:34.02
+Time Elapsed 00:00:03.70

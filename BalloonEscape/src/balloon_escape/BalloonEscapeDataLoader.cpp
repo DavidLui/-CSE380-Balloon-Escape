@@ -180,6 +180,7 @@ void BalloonEscapeDataLoader::loadWorld(Game *game, wstring levelInitDir, wstrin
 	physics->addCollidableObject(player);
 
 	// NOTE THAT RED BOX MAN IS SPRITE ID 2
+	player->setinvincible(false);
 	AnimatedSpriteType *playerSpriteType = spriteManager->getSpriteType(2);
 	player->setSpriteType(playerSpriteType);
 	player->setAlpha(255);

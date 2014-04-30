@@ -114,6 +114,14 @@ const unsigned int D_KEY = (unsigned int)'D';
 const unsigned int G_KEY = (unsigned int)'G';
 const unsigned int P_KEY = (unsigned int)'P';
 const unsigned int T_KEY = (unsigned int)'T';
+const unsigned int L_KEY = (unsigned int)'L';
+
+const unsigned int ONE_KEY = VkKeyScan('1');
+const unsigned int TWO_KEY = VkKeyScan('2');
+
+const unsigned int THREE_KEY = VkKeyScan('3');
+
+const unsigned int CTR_KEY = VK_CONTROL;
 const unsigned int UP_KEY = VK_UP;
 const unsigned int DOWN_KEY = VK_DOWN;
 const unsigned int SPACE_KEY = VK_SPACE;

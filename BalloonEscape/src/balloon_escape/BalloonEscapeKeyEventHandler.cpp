@@ -115,10 +115,26 @@ void BalloonEscapeKeyEventHandler::handleKeyEvents(Game *game)
 		}
 		if (input->isKeyDownForFirstTime(SPACE_KEY))
 		{
-		
+			
 		}
 
 	}
+		if (GetKeyState(CTR_KEY)< 0	&& GetKeyState(ONE_KEY) <0) {
+
+
+		}
+		if (GetKeyState(CTR_KEY)< 0	&& GetKeyState(TWO_KEY) <0) {
+
+
+		}
+		if (GetKeyState(CTR_KEY)< 0	&& GetKeyState(THREE_KEY) <0) {
+
+
+		}
+		if (GetKeyState(CTR_KEY)< 0	&& GetKeyState(L_KEY) <0) {
+			player->setinvincible(true);
+
+		}
 
 		if (input->isKeyDownForFirstTime(P_KEY))
 		{
@@ -154,12 +170,12 @@ void BalloonEscapeKeyEventHandler::handleKeyEvents(Game *game)
 		float e = (float)viewport->getViewportY();
 		if (player->getPhysicalProperties()->getY() > (float)viewport->getViewportY()) {
 			viewportVy -= 1;
-			if (player->getPhysicalProperties()->getY() - (float) viewport->getViewportY() <200) 
+			if (player->getPhysicalProperties()->getY() - (float) viewport->getViewportY() <300) 
 				viewportVy -= 2;
 			viewportMoved = true;
 
 		}
-		else {
+		if (player->getPhysicalProperties()->getY() - 1000 < (float)viewport->getViewportY()){
 			viewportVy += 1;
 			viewportMoved = true;
 		}
