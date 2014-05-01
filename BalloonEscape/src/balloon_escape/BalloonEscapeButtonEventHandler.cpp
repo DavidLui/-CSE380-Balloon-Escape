@@ -29,7 +29,7 @@ void BalloonEscapeButtonEventHandler::handleButtonEvents(	Game *game,
 	{
 		GameStateManager *gsm = game->getGSM();
 		gsm->goToMainMenu();
-		
+		PlaySound(L"data/sounds/start.wav", NULL, SND_FILENAME|SND_ASYNC);
 	}
 	// THE USER PRESSED THE Start BUTTON ON THE MAIN MENU,
 	// SO LET'S START THE GAME FROM THE FIRST LEVEL
@@ -37,21 +37,25 @@ void BalloonEscapeButtonEventHandler::handleButtonEvents(	Game *game,
 	{
 		game->setCurrentLevel(W_LEVEL_1_NAME,W_LEVEL_1_DIR);
 		game->startGame();
+		PlaySound(L"data/sounds/theme.wav", NULL, SND_FILENAME|SND_ASYNC);
 	}
 	// THE USER PRESSED THE Quit BUTTON ON THE IN-GAME MENU,
 	// SO LET'S UNLOAD THE LEVEL AND RETURN TO THE MAIN MENU
 	else if (command.compare(W_QUIT_COMMAND) == 0)
 	{
 		game->quitGame();
+		PlaySound(L"data/sounds/jump.wav", NULL, SND_FILENAME|SND_ASYNC);
 	}
 	else if (command.compare(W_HELP_COMMAND) == 0)
 	{
 		GameStateManager *gsm = game->getGSM();
 		gsm->Help();
+		PlaySound(L"data/sounds/jump.wav", NULL, SND_FILENAME|SND_ASYNC);
 	}
 	else if (command.compare(W_ABOUT_COMMAND) == 0)
 	{
 		GameStateManager *gsm = game->getGSM();
 		gsm->About();
+		PlaySound(L"data/sounds/jump.wav", NULL, SND_FILENAME|SND_ASYNC);
 	}
 }

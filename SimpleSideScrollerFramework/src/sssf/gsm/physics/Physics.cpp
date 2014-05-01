@@ -275,8 +275,8 @@ void Physics::update(Game *game)
 					z=50;
 
 					if(game->getPlayerLife() > 0)
-						game->decreasePlayerLife();
-		
+						{game->decreasePlayerLife();
+					PlaySound(L"data/sounds/explosion.wav", NULL, SND_FILENAME|SND_SYNC);}
 					else 
 					{
 					if(game->getLives() > 1) {
@@ -292,6 +292,7 @@ void Physics::update(Game *game)
 						viewport->setViewportY(8880);
 
 						gsm->gameOver();
+						PlaySound(L"data/sounds/end.wav", NULL, SND_FILENAME|SND_SYNC);
 					}
 	
 					game->setPlayerLife();

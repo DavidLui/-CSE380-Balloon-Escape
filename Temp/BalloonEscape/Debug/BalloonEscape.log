@@ -1,19 +1,16 @@
-﻿Build started 4/30/2014 8:23:43 PM.
-     1>Project "C:\Users\David\Documents\GitHub\balloon\BalloonEscape\BalloonEscape.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\\" /Fd"C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\balloon_escape\BalloonEscapeKeyEventHandler.cpp
-         BalloonEscapeKeyEventHandler.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib d3d9.lib d3dx9.lib winmm.lib PoseurSpriteTypesImporter.lib SimpleSideScrollerFramework.lib tinyxml.lib TMXMapImporter.lib XMLFileImporter.lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\David\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.lib" /MACHINE:X86 C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscape.obj
-         C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeButtonEventHandler.obj
-         C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeCollisionListener.obj
-         C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeDataLoader.obj
-         C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeKeyEventHandler.obj
-         C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeTextGenerator.obj
-         C:\Users\David\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\stdafx.obj
-         BalloonEscape.vcxproj -> C:\Users\David\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.exe
-     1>Done Building Project "C:\Users\David\Documents\GitHub\balloon\BalloonEscape\BalloonEscape.vcxproj" (Build target(s)).
+﻿Build started 4/30/2014 8:56:26 PM.
+     1>Project "C:\Users\Mike Wang\Documents\GitHub\balloon\BalloonEscape\BalloonEscape.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\All programs\VisualStudioProfessional2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mike Wang\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib d3d9.lib d3dx9.lib winmm.lib PoseurSpriteTypesImporter.lib SimpleSideScrollerFramework.lib tinyxml.lib TMXMapImporter.lib XMLFileImporter.lib Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mike Wang\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mike Wang\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.lib" /MACHINE:X86 "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscape.obj"
+         "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeButtonEventHandler.obj"
+         "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeCollisionListener.obj"
+         "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeDataLoader.obj"
+         "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeKeyEventHandler.obj"
+         "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\BalloonEscapeTextGenerator.obj"
+         "C:\Users\Mike Wang\Documents\GitHub\balloon\Temp\BalloonEscape\Debug\stdafx.obj"
+         BalloonEscape.vcxproj -> C:\Users\Mike Wang\Documents\GitHub\balloon\Apps\BalloonEscape\BalloonEscape.exe
+     1>Done Building Project "C:\Users\Mike Wang\Documents\GitHub\balloon\BalloonEscape\BalloonEscape.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.38
+Time Elapsed 00:00:01.84
